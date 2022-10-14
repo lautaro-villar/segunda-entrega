@@ -1,0 +1,261 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+}
+
+.titulo-padre {
+  padding: 50px;
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  color: black;
+}
+
+/*components*/
+header {
+  height: 290px;
+  padding: 1% 1% 1% 1%;
+  background-color: rgb(0, 0, 0);
+  margin-bottom: -75px;
+  /*header nav*/
+}
+header a:hover {
+  background-color: rgb(218, 0, 0);
+  border-radius: 50px;
+}
+
+.Logo-sumo-1 {
+  width: 50px;
+  height: 65px;
+}
+
+.navegacion {
+  text-align: center;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+
+@media all and (max-width: 610px) {
+  .menu-responsive {
+    padding: 50px;
+    margin: -50px;
+    display: grid;
+    grid-template-areas: "primer-boton" "segundo-boton" "tercer-boton" "cuarto-boton" "quinto-boton";
+    height: 10px;
+    width: 100%;
+  }
+}
+.botones {
+  color: whitesmoke;
+  text-decoration: none;
+  padding: 10px 20px;
+  line-height: normal;
+  font-size: 20px;
+  font-weight: bold;
+  border: solid 2px whitesmoke;
+  border-bottom: blue;
+  border-right: blue;
+  border-top: blue;
+}
+
+/*primer a quinto boton*/
+.primer-boton {
+  grid-area: primer-boton;
+}
+
+.segundo-boton {
+  grid-area: segundo-boton;
+}
+
+.tercer-boton {
+  grid-area: tercer-boton;
+}
+
+.cuarto-boton {
+  grid-area: cuarto-boton;
+}
+
+.quinto-boton {
+  grid-area: quinto-boton;
+}
+
+/*primer a quinto boton hover*/
+.primer-boton:hover {
+  transform: scale(1.1);
+  transition-property: all;
+  transition-duration: 1.2s;
+}
+
+.segundo-boton:hover {
+  transform: scale(1.1);
+  transition-property: all;
+  transition-duration: 1.2s;
+}
+
+.tercer-boton:hover {
+  transform: scale(1.1);
+  transition-property: all;
+  transition-duration: 1.2s;
+}
+
+.cuarto-boton:hover {
+  transform: scale(1.1);
+  transition-property: all;
+  transition-duration: 1.2s;
+}
+
+.quinto-boton:hover {
+  transform: scale(1.1);
+  transition-property: all;
+  transition-duration: 1.2s;
+}
+
+/*primer a quinto boton hover*/
+.lista-integrantes {
+  color: whitesmoke;
+}
+
+.caja-padre {
+  border: solid 1px rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+  color: whitesmoke;
+  display: grid;
+  grid-template-rows: auto auto;
+  grid-template-columns: auto auto auto;
+  border: solid 1px rgb(255, 255, 255);
+  text-align: center;
+}
+
+/*discos*/
+/*primer-disco*/
+.primer-disco {
+  border: solid 1px whitesmoke;
+}
+
+.imagen-dividos-por-la-felicidad {
+  width: 200px;
+}
+
+.imagen-dividos-por-la-felicidad-transicion:hover {
+  transform: scale(1.1);
+  transition-property: all;
+  transition-duration: 1.5s;
+}
+
+/*primer-disco*/
+/*segundo-disco*/
+.segundo-disco {
+  border: solid 1px whitesmoke;
+}
+
+.imagen-llegando-los-monos {
+  width: 200px;
+}
+
+.imagen-llegando-los-monos-transicion:hover {
+  transform: scale(1.1);
+  transition-property: all;
+  transition-duration: 1.5s;
+}
+
+/*segundo-disco*/
+/*tercer-disco*/
+.tercer-disco {
+  border: solid 1px whitesmoke;
+}
+
+.imagen-after-chabon {
+  width: 200px;
+}
+
+.imagen-after-chabon-transicion:hover {
+  transform: scale(1.1);
+  transition-property: all;
+  transition-duration: 1.5s;
+}
+
+/*tercer-disco*/
+/*media-queris-discos*/
+@media all and (max-width: 610px) {
+  .caja-padre {
+    display: grid;
+    grid-template-areas: "primer-disco" "segundo-disco" "tercer-disco";
+    border: none;
+  }
+  .titulo-discos {
+    border: none;
+  }
+}
+@media all and (max-width: 610px) and (max-width: 451px) {
+  .primer-disco {
+    grid-area: primer-disco;
+  }
+  .segundo-disco {
+    grid-area: segundo-disco;
+  }
+  .tercer-disco {
+    grid-area: tercer-disco;
+  }
+  /*media-queris-discos*/
+  /*discos*/
+}
+footer .redes-sociales {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+footer .instagram {
+  width: 30px;
+}
+footer .facebook {
+  width: 30px;
+}
+footer .twitter {
+  width: 30px;
+}
+
+aside .titulo-padre {
+  padding: 50px;
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  color: black;
+}
+aside .logo-sumo-2 {
+  width: 200px;
+  height: 200px;
+  background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZ56OVhVGAgBEpfudIGPTIEVa76P2oJ66C6oD6Ty5Owtmq-MpRsz7478DVA8PJMjAI44o&usqp=CAU);
+  border-radius: 50%;
+  margin: 60px 30px 30px 0px;
+}
+aside .descripcion {
+  color: whitesmoke;
+}
+aside .titulo-discos {
+  border: solid 1px rgb(255, 255, 255);
+  text-align: center;
+  background-color: rgb(0, 0, 0);
+  color: whitesmoke;
+}
+@media all and (max-width: 610px) {
+  aside .titulo-padre {
+    margin-top: 100px;
+    padding: 60px;
+  }
+  aside hr {
+    display: none;
+  }
+}
+aside .titulo-historia {
+  color: whitesmoke;
+}
+
+/*# sourceMappingURL=style.css.map */

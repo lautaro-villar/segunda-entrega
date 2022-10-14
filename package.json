@@ -1,0 +1,26 @@
+{
+  "name": "prueba-segunda-pre-entrega",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lautaro-villar/segunda-entrega.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lautaro-villar/segunda-entrega/issues"
+  },
+  "homepage": "https://github.com/lautaro-villar/segunda-entrega#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.3",
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "sass": "^1.55.0"
+  },
+  "description": ""
+}
