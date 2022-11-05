@@ -8,11 +8,9 @@
     border: solid 1px rgb(255, 255, 255);
     text-align: center;
 }
+
 /*discos*/
-
 /*primer-disco*/
-
-
 
 .primer-disco {
     border: solid 1px whitesmoke;
@@ -30,8 +28,6 @@
 /*primer-disco*/
 
 /*segundo-disco*/
-
-
 .segundo-disco {
     border: solid 1px whitesmoke;
 }
@@ -48,8 +44,6 @@
 /*segundo-disco*/
 
 /*tercer-disco*/
-
-
 .tercer-disco {
     border: solid 1px whitesmoke;
 }
@@ -66,8 +60,6 @@
 /*tercer-disco*/
 
 /*media-queris-discos*/
-
-
 @media all and (max-width:610px) {
     .caja-padre {
         display: grid;
@@ -75,11 +67,6 @@
             "primer-disco"
             "segundo-disco"
             "tercer-disco";
-        border: none;
-    }
-
-    .titulo-discos {
-        border: none;
     }
 
     @media all and (max-width:451px) {
@@ -96,7 +83,7 @@
         }
         /*media-queris-discos*/
         /*discos*/
-
     }
+    
 }
 

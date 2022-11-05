@@ -39,7 +39,7 @@ header a:hover {
   font-size: 30px;
   display: flex;
   justify-content: center;
-  justify-content: space-around;
+  justify-content: /*space-around;*/ space-between;
   margin-top: 100px;
 }
 
@@ -91,31 +91,31 @@ header a:hover {
 .primer-boton:hover {
   transform: scale(1.1);
   transition-property: all;
-  transition-duration: 1.2s;
+  transition-duration: 1.3s;
 }
 
 .segundo-boton:hover {
   transform: scale(1.1);
   transition-property: all;
-  transition-duration: 1.2s;
+  transition-duration: 1.3s;
 }
 
 .tercer-boton:hover {
   transform: scale(1.1);
   transition-property: all;
-  transition-duration: 1.2s;
+  transition-duration: 1.3s;
 }
 
 .cuarto-boton:hover {
   transform: scale(1.1);
   transition-property: all;
-  transition-duration: 1.2s;
+  transition-duration: 1.3s;
 }
 
 .quinto-boton:hover {
   transform: scale(1.1);
   transition-property: all;
-  transition-duration: 1.2s;
+  transition-duration: 1.3s;
 }
 
 /*primer a quinto boton hover*/
@@ -254,6 +254,7 @@ aside .titulo-discos {
     display: none;
   }
 }
+
 aside .titulo-historia {
   color: whitesmoke;
 }
