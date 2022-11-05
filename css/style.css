@@ -24,6 +24,7 @@ header {
   margin-bottom: -75px;
   /*header nav*/
 }
+
 header a:hover {
   background-color: rgb(218, 0, 0);
   border-radius: 50px;
@@ -39,7 +40,9 @@ header a:hover {
   font-size: 30px;
   display: flex;
   justify-content: center;
-  justify-content: /*space-around;*/ space-between;
+  justify-content:
+    /*space-around;*/
+    space-between;
   margin-top: 100px;
 }
 
@@ -53,6 +56,7 @@ header a:hover {
     width: 100%;
   }
 }
+
 .botones {
   color: whitesmoke;
   text-decoration: none;
@@ -92,30 +96,45 @@ header a:hover {
   transform: scale(1.1);
   transition-property: all;
   transition-duration: 1.3s;
+  color:
+    /* white*/
+    black;
 }
 
 .segundo-boton:hover {
   transform: scale(1.1);
   transition-property: all;
   transition-duration: 1.3s;
+  color:
+    /*white*/
+    black;
 }
 
 .tercer-boton:hover {
   transform: scale(1.1);
   transition-property: all;
   transition-duration: 1.3s;
+  color:
+    /*white*/
+    black;
 }
 
 .cuarto-boton:hover {
   transform: scale(1.1);
   transition-property: all;
   transition-duration: 1.3s;
+  color:
+    /*white*/
+    black;
 }
 
 .quinto-boton:hover {
   transform: scale(1.1);
   transition-property: all;
   transition-duration: 1.3s;
+  color:
+    /*white*/
+    black;
 }
 
 /*primer a quinto boton hover*/
@@ -190,34 +209,43 @@ header a:hover {
     grid-template-areas: "primer-disco" "segundo-disco" "tercer-disco";
     border: none;
   }
+
   .titulo-discos {
     border: none;
   }
 }
+
 @media all and (max-width: 610px) and (max-width: 451px) {
   .primer-disco {
     grid-area: primer-disco;
   }
+
   .segundo-disco {
     grid-area: segundo-disco;
   }
+
   .tercer-disco {
     grid-area: tercer-disco;
   }
+
   /*media-queris-discos*/
   /*discos*/
 }
+
 footer .redes-sociales {
   list-style: none;
   display: flex;
   justify-content: space-around;
 }
+
 footer .instagram {
   width: 30px;
 }
+
 footer .facebook {
   width: 30px;
 }
+
 footer .twitter {
   width: 30px;
 }
@@ -229,6 +257,7 @@ aside .titulo-padre {
   justify-content: center;
   color: black;
 }
+
 aside .logo-sumo-2 {
   width: 200px;
   height: 200px;
@@ -236,20 +265,24 @@ aside .logo-sumo-2 {
   border-radius: 50%;
   margin: 60px 30px 30px 0px;
 }
+
 aside .descripcion {
   color: whitesmoke;
 }
+
 aside .titulo-discos {
   border: solid 1px rgb(255, 255, 255);
   text-align: center;
   background-color: rgb(0, 0, 0);
   color: whitesmoke;
 }
+
 @media all and (max-width: 610px) {
   aside .titulo-padre {
     margin-top: 100px;
     padding: 60px;
   }
+
   aside hr {
     display: none;
   }
